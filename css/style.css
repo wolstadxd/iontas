@@ -403,8 +403,9 @@ select{
 }
 
 .center_img {
-
     display: block;
+    width: 100%;
+    height: 100%;
     margin: 0 auto 20px;
 }
 p {
@@ -495,6 +496,7 @@ p.justify {
 .b1 {
     padding: 528px 0 0;
     background: url("../img/b2.jpg") center top no-repeat #75B2F0;
+    background-size: contain;
 }
 .b1-bot {
     background: url(../img/b2-bot.jpg) center bottom no-repeat;
@@ -1119,6 +1121,7 @@ ul.kak_zakaz-v2_inner li:nth-child(4):before {
 
 .about_section img {
     width: 440px;
+    height: 714px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     border-radius: 10px;
