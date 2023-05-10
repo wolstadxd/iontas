@@ -97,9 +97,12 @@
 	cursor: pointer;
 }
 
+.reviews_section .owl-dot {
+    background-size: contain;
+}
+
 .reviews_section .owl-dot:first-child {
-	background-image: url("../img/pic1.jpg");
-	object-fit: cover; 
+	background-image: url("../img/pic5.jpg");
 }
 
 .reviews_section .owl-dot:nth-child(2) {
@@ -107,19 +110,19 @@
 }
 
 .reviews_section .owl-dot:nth-child(3) {
-	background-image: url("../img/pic3.jpg");
+	background-image: url("../img/pic1.jpg");
 }
 
 .reviews_section .owl-dot:nth-child(4) {
-	background-image: url("../img/pic4.jpg");
+	background-image: url("../img/pic6.jpg");
 }
 
 .reviews_section .owl-dot:nth-child(5) {
-	background-image: url("../img/pic5.jpg");
+	background-image: url("../img/pic3.jpg");
 }
 
 .reviews_section .owl-dot:last-child {
-	background-image: url("../img/pic6.jpg");
+	background-image: url("../img/pic4.jpg");
 }
 
 .reviews_section .owl-dot.active {
