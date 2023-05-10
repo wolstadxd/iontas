@@ -128,7 +128,7 @@ $(document).ready(function(){
 
     $('[name="country"]').on('change', function() {
         var geoKey = $(this).find('option:selected').val();
-        var data = $jsonData.prices[geoKey];
+        var data = $jsonData.prices[geoKey];а
         var price = data.price;
         var oldPrice = data.old_price;
         var currency = data.currency

@@ -403,6 +403,7 @@ select{
 }
 
 .center_img {
+
     display: block;
     margin: 0 auto 20px;
 }
@@ -1003,6 +1004,9 @@ ul.spisok3_colors {
 .spisok5 {
         padding-bottom: 20px;
 }
+img {
+    border-radius: 15px;
+}
 .spisok5 ul li {
     text-align: right;
     padding: 10px 20px;
@@ -1114,7 +1118,6 @@ ul.kak_zakaz-v2_inner li:nth-child(4):before {
 }
 
 .about_section img {
-    width: 440px;
     width: 440px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;

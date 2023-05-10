@@ -90,7 +90,7 @@
 .reviews_section .owl-dot {
 	float: left;
 	width: 160px;
-	height: 160px;
+	height: 226px;
 	background-position: center;
 	background-repeat: no-repeat;
 	opacity: 0.3;
@@ -98,15 +98,28 @@
 }
 
 .reviews_section .owl-dot:first-child {
-	background-image: url("../img/kat7.png");
+	background-image: url("../img/pic1.jpg");
+	object-fit: cover; 
 }
 
 .reviews_section .owl-dot:nth-child(2) {
-	background-image: url("../img/kat8.png");
+	background-image: url("../img/pic2.jpg");
+}
+
+.reviews_section .owl-dot:nth-child(3) {
+	background-image: url("../img/pic3.jpg");
+}
+
+.reviews_section .owl-dot:nth-child(4) {
+	background-image: url("../img/pic4.jpg");
+}
+
+.reviews_section .owl-dot:nth-child(5) {
+	background-image: url("../img/pic5.jpg");
 }
 
 .reviews_section .owl-dot:last-child {
-	background-image: url("../img/kat9.png");
+	background-image: url("../img/pic6.jpg");
 }
 
 .reviews_section .owl-dot.active {
